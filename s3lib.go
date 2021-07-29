@@ -1,5 +1,10 @@
 package s3lib
 
+// This package provides simple functions to interact with an s3 bucket
+// More information on the usage of aws-sdk-go:
+// https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/s3-example-basic-bucket-operations.html
+// https://docs.aws.amazon.com/sdk-for-go/api/service/s3/
+
 import (
 	"fmt"
 	"io"
